@@ -20,7 +20,7 @@ class AlternatingGroupsIITest {
 
     @ParameterizedTest
     @MethodSource
-    void pivotArrayReturnsExpectedResult(int[] colors, int k, int expected) {
+    void numberOfAlternatingGroupsReturnsExpectedResult(int[] colors, int k, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class AlternatingGroupsIITest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> pivotArrayReturnsExpectedResult() {
+    static Stream<Arguments> numberOfAlternatingGroupsReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{0,1,0,0,1,0,1}, 6, 2),
                 Arguments.of(new int[]{0,1,0,1,0}, 3, 3),
