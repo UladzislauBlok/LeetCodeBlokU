@@ -20,7 +20,7 @@ class ValidPalindromeTest {
 
     @ParameterizedTest
     @MethodSource
-    void isPalindromeReturnsExpectedResult(String input, boolean expected) {
+    void solutionReturnsExpectedResult(String input, boolean expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class ValidPalindromeTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> isPalindromeReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("",  true),
                 Arguments.of(".,",  true),

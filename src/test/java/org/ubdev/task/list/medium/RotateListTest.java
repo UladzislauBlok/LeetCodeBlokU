@@ -23,7 +23,7 @@ class RotateListTest {
 
     @ParameterizedTest
     @MethodSource
-    void rotateRightReturnsExpectedResult(ListNode list, int k, ListNode expected) {
+    void solutionReturnsExpectedResult(ListNode list, int k, ListNode expected) {
         // given
 
         // when
@@ -33,7 +33,7 @@ class RotateListTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> rotateRightReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(buildListNode(List.of(1,2,3,4,5)), 2, buildListNode(List.of(4,5,1,2,3))),
                 Arguments.of(buildListNode(List.of(0,1,2)), 4, buildListNode(List.of(2,0,1)))

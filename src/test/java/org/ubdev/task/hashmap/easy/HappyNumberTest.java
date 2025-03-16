@@ -20,7 +20,7 @@ class HappyNumberTest {
 
     @ParameterizedTest
     @MethodSource
-    void isIsomorphicReturnsExpectedResult(int n, boolean expected) {
+    void solutionReturnsExpectedResult(int n, boolean expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class HappyNumberTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> isIsomorphicReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(19, true),
                 Arguments.of(2, false)

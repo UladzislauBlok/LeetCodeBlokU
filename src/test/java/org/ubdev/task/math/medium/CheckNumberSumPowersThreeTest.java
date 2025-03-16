@@ -20,7 +20,7 @@ class CheckNumberSumPowersThreeTest {
 
     @ParameterizedTest
     @MethodSource
-    void checkPowersOfThreeReturnsExpectedResult(int input, boolean expected) {
+    void solutionReturnsExpectedResult(int input, boolean expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class CheckNumberSumPowersThreeTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> checkPowersOfThreeReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(12, true),
                 Arguments.of(91, true),

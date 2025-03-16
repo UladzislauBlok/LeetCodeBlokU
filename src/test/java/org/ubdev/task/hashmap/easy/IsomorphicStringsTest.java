@@ -20,7 +20,7 @@ class IsomorphicStringsTest {
 
     @ParameterizedTest
     @MethodSource
-    void isIsomorphicReturnsExpectedResult(String s, String t, boolean expected) {
+    void solutionReturnsExpectedResult(String s, String t, boolean expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class IsomorphicStringsTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> isIsomorphicReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("badc", "baba", false),
                 Arguments.of("egg", "add", true),

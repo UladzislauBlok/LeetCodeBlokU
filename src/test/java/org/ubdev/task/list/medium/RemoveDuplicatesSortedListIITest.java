@@ -23,7 +23,7 @@ class RemoveDuplicatesSortedListIITest {
 
     @ParameterizedTest
     @MethodSource
-    void deleteDuplicatesReturnsExpectedResult(ListNode head, ListNode expected) {
+    void solutionReturnsExpectedResult(ListNode head, ListNode expected) {
         // given
 
         // when
@@ -33,7 +33,7 @@ class RemoveDuplicatesSortedListIITest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> deleteDuplicatesReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(buildListNode(List.of(1,2,3,3,4,4,5)), buildListNode(List.of(1,2,5))),
                 Arguments.of(buildListNode(List.of(1,1,1,2,3)), buildListNode(List.of(2,3)))

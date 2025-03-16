@@ -20,7 +20,7 @@ class HouseRobberIVTest {
 
     @ParameterizedTest
     @MethodSource
-    void pivotArrayReturnsExpectedResult(int[] nums, int k, int expected) {
+    void solutionReturnsExpectedResult(int[] nums, int k, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class HouseRobberIVTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> pivotArrayReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{2,3,5,9}, 2, 5),
                 Arguments.of(new int[]{2,7,9,3,1}, 2, 2)

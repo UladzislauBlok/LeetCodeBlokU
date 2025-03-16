@@ -20,7 +20,7 @@ class MinimumTimeRepairCarsTest {
 
     @ParameterizedTest
     @MethodSource
-    void pivotArrayReturnsExpectedResult(int[] ranks, int cars, long expected) {
+    void solutionReturnsExpectedResult(int[] ranks, int cars, long expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class MinimumTimeRepairCarsTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> pivotArrayReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{4,2,3,1}, 10, 16),
                 Arguments.of(new int[]{5,1,8}, 6, 16)

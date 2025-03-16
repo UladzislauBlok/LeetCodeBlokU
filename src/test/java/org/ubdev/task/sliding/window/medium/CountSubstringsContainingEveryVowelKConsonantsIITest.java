@@ -20,7 +20,7 @@ class CountSubstringsContainingEveryVowelKConsonantsIITest {
 
     @ParameterizedTest
     @MethodSource
-    void minimumRecolorsReturnsExpectedResult(String word, int k, long expected) {
+    void solutionReturnsExpectedResult(String word, int k, long expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class CountSubstringsContainingEveryVowelKConsonantsIITest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> minimumRecolorsReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("ieaouqqieaouqq", 1, 3),
                 Arguments.of("aadieuoh", 1, 2),

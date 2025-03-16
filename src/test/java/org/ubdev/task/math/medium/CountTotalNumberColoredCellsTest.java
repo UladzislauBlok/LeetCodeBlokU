@@ -20,7 +20,7 @@ class CountTotalNumberColoredCellsTest {
 
     @ParameterizedTest
     @MethodSource
-    void coloredCellsOfThreeReturnsExpectedResult(int input, long expected) {
+    void solutionReturnsExpectedResult(int input, long expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class CountTotalNumberColoredCellsTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> coloredCellsOfThreeReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(1, 1),
                 Arguments.of(2, 5)

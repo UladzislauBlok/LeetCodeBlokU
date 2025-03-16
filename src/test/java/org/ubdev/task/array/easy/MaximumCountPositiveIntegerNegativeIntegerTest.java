@@ -20,7 +20,7 @@ class MaximumCountPositiveIntegerNegativeIntegerTest {
 
     @ParameterizedTest
     @MethodSource
-    void mergeArraysReturnsExpectedResult(int[] nums, int expected) {
+    void solutionReturnsExpectedResult(int[] nums, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class MaximumCountPositiveIntegerNegativeIntegerTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> mergeArraysReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{-2,-1,-1,1,2,3}, 3),
                 Arguments.of(new int[]{-3,-2,-1,0,0,1,2}, 3),

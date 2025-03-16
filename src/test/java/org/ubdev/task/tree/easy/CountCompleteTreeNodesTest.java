@@ -23,7 +23,7 @@ class CountCompleteTreeNodesTest {
 
     @ParameterizedTest
     @MethodSource
-    void countNodesReturnsExpectedResult(TreeNode input, int expected) {
+    void solutionReturnsExpectedResult(TreeNode input, int expected) {
         // given
 
         // when
@@ -33,7 +33,7 @@ class CountCompleteTreeNodesTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> countNodesReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(buildTreeNode(List.of(1,2,3,4,5,6)), 6),
                 Arguments.of(buildTreeNode(List.of()), 0),

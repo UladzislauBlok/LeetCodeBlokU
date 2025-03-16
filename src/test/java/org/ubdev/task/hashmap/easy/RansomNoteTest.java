@@ -20,7 +20,7 @@ class RansomNoteTest {
 
     @ParameterizedTest
     @MethodSource
-    void isIsomorphicReturnsExpectedResult(String ransomNote, String magazine, boolean expected) {
+    void solutionReturnsExpectedResult(String ransomNote, String magazine, boolean expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class RansomNoteTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> isIsomorphicReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("a", "b", false),
                 Arguments.of("aa", "ab", false),

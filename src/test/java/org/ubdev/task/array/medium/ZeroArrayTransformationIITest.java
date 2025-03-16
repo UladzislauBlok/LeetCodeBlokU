@@ -20,7 +20,7 @@ class ZeroArrayTransformationIITest {
 
     @ParameterizedTest
     @MethodSource
-    void pivotArrayReturnsExpectedResult(int[] nums, int[][] queries, int expected) {
+    void solutionReturnsExpectedResult(int[] nums, int[][] queries, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class ZeroArrayTransformationIITest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> pivotArrayReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{2,0,2}, new int[][]{{0,2,1}, {0,2,1}, {1,1,3}}, 2),
                 Arguments.of(new int[]{4,3,2,1}, new int[][]{{1,3,2}, {0,2,1}}, -1)

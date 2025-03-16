@@ -20,7 +20,7 @@ class PlusOneTest {
 
     @ParameterizedTest
     @MethodSource
-    void plusOneReturnsExpectedResult(int[] input, int[] expected) {
+    void solutionReturnsExpectedResult(int[] input, int[] expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class PlusOneTest {
         assertThat(actual).containsExactly(expected);
     }
 
-    static Stream<Arguments> plusOneReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{1,2,3}, new int[]{1,2,4}),
                 Arguments.of(new int[]{4,3,2,1}, new int[]{4,3,2,2}),

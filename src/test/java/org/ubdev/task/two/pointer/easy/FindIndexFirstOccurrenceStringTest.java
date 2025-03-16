@@ -20,7 +20,7 @@ class FindIndexFirstOccurrenceStringTest {
 
     @ParameterizedTest
     @MethodSource
-    void strStrReturnsExpectedResult(String haystack, String needle, int expected) {
+    void solutionReturnsExpectedResult(String haystack, String needle, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class FindIndexFirstOccurrenceStringTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> strStrReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("a", "a", 0),
                 Arguments.of("hello", "ll", 2),

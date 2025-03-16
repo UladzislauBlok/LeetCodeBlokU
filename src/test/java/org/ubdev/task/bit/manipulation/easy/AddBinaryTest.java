@@ -20,7 +20,7 @@ class AddBinaryTest {
 
     @ParameterizedTest
     @MethodSource
-    void pivotArrayReturnsExpectedResult(String a, String b, String expected) {
+    void solutionReturnsExpectedResult(String a, String b, String expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class AddBinaryTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> pivotArrayReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("1", "111", "1000"),
                 Arguments.of("11", "1", "100"),

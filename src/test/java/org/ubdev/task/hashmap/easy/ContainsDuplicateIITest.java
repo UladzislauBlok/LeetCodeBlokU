@@ -20,7 +20,7 @@ class ContainsDuplicateIITest {
 
     @ParameterizedTest
     @MethodSource
-    void containsNearbyDuplicateReturnsExpectedResult(int[] nums, int k, boolean expected) {
+    void solutionReturnsExpectedResult(int[] nums, int k, boolean expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class ContainsDuplicateIITest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> containsNearbyDuplicateReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{1,2,3,1,2,3}, 2, false),
                 Arguments.of(new int[]{1,2,3,1}, 3, true),

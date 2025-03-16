@@ -20,7 +20,7 @@ class LongestCommonPrefixTest {
 
     @ParameterizedTest
     @MethodSource
-    void strStrReturnsExpectedResult(String[] input, String expected) {
+    void solutionReturnsExpectedResult(String[] input, String expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class LongestCommonPrefixTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> strStrReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new String[]{"flower","flow","flight"}, "fl"),
                 Arguments.of(new String[]{"dog","racecar","car"}, "")

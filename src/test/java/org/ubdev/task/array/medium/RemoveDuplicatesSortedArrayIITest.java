@@ -20,7 +20,7 @@ class RemoveDuplicatesSortedArrayIITest {
 
     @ParameterizedTest
     @MethodSource
-    void pivotArrayReturnsExpectedResult(int[] nums, int expectedK, int[] expectedArray) {
+    void solutionReturnsExpectedResult(int[] nums, int expectedK, int[] expectedArray) {
         // given
 
         // when
@@ -33,7 +33,7 @@ class RemoveDuplicatesSortedArrayIITest {
         }
     }
 
-    static Stream<Arguments> pivotArrayReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{1,1,1,2,2,3}, 5, new int[]{1,1,2,2,3,-1}),
                 Arguments.of(new int[]{0,0,1,1,1,1,2,3,3}, 7, new int[]{0,0,1,1,2,3,3,-1,-1})

@@ -20,7 +20,7 @@ class ClosestPrimeNumbersRangeTest {
 
     @ParameterizedTest
     @MethodSource
-    void closestPrimesReturnsExpectedResult(int left, int right, int[] expected) {
+    void solutionReturnsExpectedResult(int left, int right, int[] expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class ClosestPrimeNumbersRangeTest {
         assertThat(actual).containsExactly(expected);
     }
 
-    static Stream<Arguments> closestPrimesReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(10, 19, new int[]{11, 13}),
                 Arguments.of(4, 6, new int[]{-1, -1})

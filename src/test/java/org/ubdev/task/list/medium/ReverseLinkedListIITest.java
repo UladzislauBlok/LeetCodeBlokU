@@ -23,7 +23,7 @@ class ReverseLinkedListIITest {
 
     @ParameterizedTest
     @MethodSource
-    void rotateRightReturnsExpectedResult(ListNode head, int left, int right, ListNode expected) {
+    void solutionReturnsExpectedResult(ListNode head, int left, int right, ListNode expected) {
         // given
 
         // when
@@ -33,7 +33,7 @@ class ReverseLinkedListIITest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> rotateRightReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(buildListNode(List.of(1,2,3)), 1 , 3, buildListNode(List.of(3, 2, 1))),
                 Arguments.of(buildListNode(List.of(3,5)), 1 , 2, buildListNode(List.of(5,3))),

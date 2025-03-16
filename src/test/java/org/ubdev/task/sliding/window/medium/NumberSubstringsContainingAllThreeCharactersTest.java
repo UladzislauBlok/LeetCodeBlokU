@@ -20,7 +20,7 @@ class NumberSubstringsContainingAllThreeCharactersTest {
 
     @ParameterizedTest
     @MethodSource
-    void minimumRecolorsReturnsExpectedResult(String s, int expected) {
+    void solutionReturnsExpectedResult(String s, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class NumberSubstringsContainingAllThreeCharactersTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> minimumRecolorsReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("acbbcac", 11),
                 Arguments.of("abcabc", 10),

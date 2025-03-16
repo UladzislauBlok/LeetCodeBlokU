@@ -20,7 +20,7 @@ class FindMissingRepeatedValuesTest {
 
     @ParameterizedTest
     @MethodSource
-    void findMissingAndRepeatedValuesReturnsExpectedResult(int[][] input, int[] expected) {
+    void solutionReturnsExpectedResult(int[][] input, int[] expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class FindMissingRepeatedValuesTest {
         assertThat(actual).containsExactly(expected);
     }
 
-    static Stream<Arguments> findMissingAndRepeatedValuesReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[][]{{1,3}, {2,2}}, new int[]{2,4}),
                 Arguments.of(new int[][]{{9,1,7}, {8,9,2}, {3,4,6}}, new int[]{9,5})

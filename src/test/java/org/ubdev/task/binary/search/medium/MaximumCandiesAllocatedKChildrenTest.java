@@ -20,7 +20,7 @@ class MaximumCandiesAllocatedKChildrenTest {
 
     @ParameterizedTest
     @MethodSource
-    void pivotArrayReturnsExpectedResult(int[] candies, long k, int expected) {
+    void solutionReturnsExpectedResult(int[] candies, long k, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class MaximumCandiesAllocatedKChildrenTest {
         assertThat(actual).isEqualTo(expected);
     }
 
-    static Stream<Arguments> pivotArrayReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(new int[]{5,8,6}, 3, 5),
                 Arguments.of(new int[]{2,5}, 11, 0)

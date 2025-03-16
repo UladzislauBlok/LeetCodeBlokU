@@ -20,7 +20,7 @@ class MinimumRecolorsGetKConsecutiveBlackBlocksTest {
 
     @ParameterizedTest
     @MethodSource
-    void minimumRecolorsReturnsExpectedResult(String blocks, int k, int expected) {
+    void solutionReturnsExpectedResult(String blocks, int k, int expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class MinimumRecolorsGetKConsecutiveBlackBlocksTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> minimumRecolorsReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of("BWBBWWBBBWBWWWBWWBBWBWBBWBB", 11, 4),
                 Arguments.of("W", 1, 1),

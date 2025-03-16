@@ -20,7 +20,7 @@ class PowXNTest {
 
     @ParameterizedTest
     @MethodSource
-    void coloredCellsOfThreeReturnsExpectedResult(double x, int n, double expected) {
+    void solutionReturnsExpectedResult(double x, int n, double expected) {
         // given
 
         // when
@@ -30,7 +30,7 @@ class PowXNTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> coloredCellsOfThreeReturnsExpectedResult() {
+    static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
                 Arguments.of(2.00000, 10, 1024.00000),
                 Arguments.of(2.1, 3, 9.261),
