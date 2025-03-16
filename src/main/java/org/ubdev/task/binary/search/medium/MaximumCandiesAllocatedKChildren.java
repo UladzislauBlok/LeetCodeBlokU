@@ -13,8 +13,7 @@ public class MaximumCandiesAllocatedKChildren {
             }
             if (count >= k) {
                 low = mid;
-            }
-            else {
+            } else {
                 high = mid - 1;
             }
         }
