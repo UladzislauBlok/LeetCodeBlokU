@@ -1,4 +1,4 @@
-package org.ubdev.task.graph;
+package org.ubdev.task.graph.medium;
 
 public class SurroundedRegions {
 

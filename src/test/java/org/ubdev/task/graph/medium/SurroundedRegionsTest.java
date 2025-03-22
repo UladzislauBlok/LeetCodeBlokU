@@ -1,4 +1,4 @@
-package org.ubdev.task.graph;
+package org.ubdev.task.graph.medium;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
