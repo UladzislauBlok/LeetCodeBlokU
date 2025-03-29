@@ -9,22 +9,22 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class MinimumCostWalkWeightedGraphTest {
+class MaximumNumberPointsFromGridQueriesTest {
 
-    private MinimumCostWalkWeightedGraph solution;
+    private MaximumNumberPointsFromGridQueries solution;
 
     @BeforeEach
     public void setUp() {
-        this.solution = new MinimumCostWalkWeightedGraph();
+        this.solution = new MaximumNumberPointsFromGridQueries();
     }
 
     @ParameterizedTest
     @MethodSource
-    void solutionReturnsExpectedResult(int n, int[][] edges, int[][] query, int[] expected) {
+    void solutionReturnsExpectedResult(int[][] grid, int[] queries, int[] expected) {
         // given
 
         // when
-        int[] actual = solution.minimumCost(n, edges, query);
+        int[] actual = solution.maxPoints(grid, queries);
 
         // then
         assertThat(actual).containsExactly(expected);
@@ -32,8 +32,8 @@ class MinimumCostWalkWeightedGraphTest {
 
     static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
-                Arguments.of(5, new int[][]{{0,1,7},{1,3,7},{1,2,1}}, new int[][]{{0,3},{3,4}}, new int[]{1,-1}),
-                Arguments.of(3, new int[][]{{0,2,7},{0,1,15},{1,2,6},{1,2,1}}, new int[][]{{1,2}}, new int[]{0})
+                Arguments.of(new int[][]{{1,2,3},{2,5,7},{3,5,1}}, new int[]{5,6,2}, new int[]{5,8,1}),
+                Arguments.of(new int[][]{{5,2,1},{1,1,2}}, new int[]{3}, new int[]{0})
         );
     }
 }
