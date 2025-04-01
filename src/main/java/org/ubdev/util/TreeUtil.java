@@ -12,14 +12,20 @@ public class TreeUtil {
                 .map(TreeNode::new)
                 .toList();
         for (int i = 0; i < nodes.size(); i++) {
-            TreeNode node = nodes.get(i);
+            TreeNode node = getNullableNode(nodes, i);
+            if (node == null)
+                continue;
             if (i + i + 1 < nodes.size()) {
-                node.left = nodes.get(i + i + 1);
+                node.left = getNullableNode(nodes, i + i + 1);
             }
             if (i + i + 2 < nodes.size()) {
-                node.right = nodes.get(i + i + 2);
+                node.right = getNullableNode(nodes, i + i + 2);
             }
         }
         return nodes.isEmpty() ? null : nodes.getFirst();
+    }
+
+    private static TreeNode getNullableNode(List<TreeNode> nodes, int pos) {
+        return nodes.get(pos).val == -1 ? null: nodes.get(pos);
     }
 }
