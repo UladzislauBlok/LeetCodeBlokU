@@ -9,22 +9,23 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class IntegerRomanTest {
 
-    private IntegerRoman solution;
+class ZigzagConversionTest {
+
+    private ZigzagConversion solution;
 
     @BeforeEach
     public void setUp() {
-        this.solution = new IntegerRoman();
+        this.solution = new ZigzagConversion();
     }
 
     @ParameterizedTest
     @MethodSource
-    void solutionReturnsExpectedResult(int num, String expected) {
+    void solutionReturnsExpectedResult(String str, int numRow, String expected) {
         // given
 
         // when
-        String actual = solution.intToRoman(num);
+        String actual = solution.convert(str, numRow);
 
         // then
         assertThat(actual).isEqualTo(expected);
@@ -32,9 +33,9 @@ class IntegerRomanTest {
 
     static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
-                Arguments.of(3749, "MMMDCCXLIX"),
-                Arguments.of(58, "LVIII"),
-                Arguments.of(1994, "MCMXCIV")
+                Arguments.of("PAYPALISHIRING", 3, "PAHNAPLSIIGYIR"),
+                Arguments.of("A", 1, "A"),
+                Arguments.of("PAYPALISHIRING", 4, "PINALSIGYAHRPI")
         );
     }
 }
