@@ -7,7 +7,7 @@ import java.util.List;
 
 public class SimplifyPath {
 
-    public static String simplifyPath(String path) {
+    public String simplifyPath(String path) {
         List<String> list = new ArrayList<>();
         int len = path.length();
         int i = 0;
