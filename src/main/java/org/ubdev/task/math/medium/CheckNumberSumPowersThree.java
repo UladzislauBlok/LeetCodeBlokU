@@ -20,7 +20,7 @@ public class CheckNumberSumPowersThree {
      * <p>7 / 3 - rest 1
      * <p>2 / 3 - rest 2
      * <p>0
-     * <p>210 = 9 + 9 + 1
+     * <p>210 = 9 + 9 + 3
      * <p>There we have two occurrences of 9, so we should return false;
      */
     public boolean checkPowersOfThree(int n) {
