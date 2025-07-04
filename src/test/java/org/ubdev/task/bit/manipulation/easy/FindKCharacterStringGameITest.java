@@ -1,4 +1,4 @@
-package org.ubdev.task.string.easy;
+package org.ubdev.task.bit.manipulation.easy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;

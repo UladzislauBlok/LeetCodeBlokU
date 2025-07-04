@@ -1,6 +1,6 @@
-package org.ubdev.task.string.easy;
+package org.ubdev.task.bit.manipulation.easy;
 
-public class FindKCharacterStringGameI {
+class FindKCharacterStringGameI {
 
     public char kthCharacter(int k) {
         long pow = 1;
