@@ -1,6 +1,6 @@
 package org.ubdev.task.sliding.window.medium;
 
-public class RescheduleMeetingsMaximumFreeTimeI {
+class RescheduleMeetingsMaximumFreeTimeI {
 
     public int maxFreeTime(int eventTime, int k, int[] startTime, int[] endTime) {
         int n = startTime.length;
