@@ -1,4 +1,4 @@
-package org.ubdev.task.list.medium;
+package org.ubdev.task.linked.list.easy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -12,22 +12,22 @@ import java.util.stream.Stream;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.ubdev.util.ListUtil.buildListNode;
 
-class RemoveDuplicatesSortedListIITest {
+class ConvertBinaryNumberLinkedListIntegerTest {
 
-    private RemoveDuplicatesSortedListII solution;
+    private ConvertBinaryNumberLinkedListInteger solution;
 
     @BeforeEach
     public void setUp() {
-        this.solution = new RemoveDuplicatesSortedListII();
+        this.solution = new ConvertBinaryNumberLinkedListInteger();
     }
 
     @ParameterizedTest
     @MethodSource
-    void solutionReturnsExpectedResult(ListNode head, ListNode expected) {
+    void solutionReturnsExpectedResult(ListNode head, int expected) {
         // given
 
         // when
-        ListNode actual = solution.deleteDuplicates(head);
+        int actual = solution.getDecimalValue(head);
 
         // then
         assertThat(actual).isEqualTo(expected);
@@ -35,8 +35,8 @@ class RemoveDuplicatesSortedListIITest {
 
     static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
-                Arguments.of(buildListNode(List.of(1,2,3,3,4,4,5)), buildListNode(List.of(1,2,5))),
-                Arguments.of(buildListNode(List.of(1,1,1,2,3)), buildListNode(List.of(2,3)))
+                Arguments.of(buildListNode(List.of(1,0,1)), 5),
+                Arguments.of(buildListNode(List.of(0)), 0)
         );
     }
 }

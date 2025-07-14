@@ -1,4 +1,4 @@
-package org.ubdev.task.list.medium;
+package org.ubdev.task.linked.list.medium;
 
 import org.ubdev.domain.ListNode;
 

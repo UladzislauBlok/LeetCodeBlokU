@@ -1,10 +1,11 @@
-package org.ubdev.task.list.medium;
+package org.ubdev.task.linked.list.medium;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.ubdev.domain.ListNode;
+import org.ubdev.task.linked.list.medium.ReverseLinkedListII;
 
 import java.util.List;
 import java.util.stream.Stream;
