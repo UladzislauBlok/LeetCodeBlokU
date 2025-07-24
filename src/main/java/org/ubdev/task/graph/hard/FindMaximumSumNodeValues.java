@@ -1,6 +1,6 @@
 package org.ubdev.task.graph.hard;
 
-public class FindMaximumSumNodeValues {
+class FindMaximumSumNodeValues {
 
     public long maximumValueSum(int[] nums, int k, int[][] edges) {
         long sum = 0;
