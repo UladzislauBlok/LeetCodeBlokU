@@ -2,7 +2,7 @@ package org.ubdev.task.sliding.window.medium;
 
 import java.util.Arrays;
 
-public class NumberSubstringsContainingAllThreeCharacters {
+class NumberSubstringsContainingAllThreeCharacters {
 
     public int numberOfSubstringsLookingRight(String s) {
         char[] chs = s.toCharArray();

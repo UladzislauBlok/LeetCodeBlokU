@@ -2,7 +2,7 @@ package org.ubdev.task.array.hard;
 
 import java.util.Arrays;
 
-public class PutMarblesBags {
+class PutMarblesBags {
 
     public long putMarbles(int[] weights, int k) {
         int[] arr = new int[weights.length - 1];

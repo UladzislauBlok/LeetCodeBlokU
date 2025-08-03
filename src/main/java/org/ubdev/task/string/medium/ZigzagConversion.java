@@ -1,6 +1,6 @@
 package org.ubdev.task.string.medium;
 
-public class ZigzagConversion {
+class ZigzagConversion {
 
     public String convert(String s, int numRows) {
         if (numRows == 1 || numRows > s.length()) return s;

@@ -1,6 +1,6 @@
 package org.ubdev.task.math.medium;
 
-public class CheckNumberSumPowersThree {
+class CheckNumberSumPowersThree {
 
     /**
      * To solve it we need to convert it to base 3 system (which has only 3 nums: 0,1,2), and check is there any occurrences of 2.

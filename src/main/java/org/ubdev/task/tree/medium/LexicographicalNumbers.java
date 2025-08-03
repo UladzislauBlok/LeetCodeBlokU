@@ -3,7 +3,7 @@ package org.ubdev.task.tree.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LexicographicalNumbers {
+class LexicographicalNumbers {
 
     // dfs
     public List<Integer> lexicalOrder(int n) {

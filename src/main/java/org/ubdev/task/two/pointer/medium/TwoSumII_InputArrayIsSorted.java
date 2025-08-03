@@ -1,6 +1,6 @@
 package org.ubdev.task.two.pointer.medium;
 
-public class TwoSumII_InputArrayIsSorted {
+class TwoSumII_InputArrayIsSorted {
 
     public int[] twoSum(int[] numbers, int target) {
         int rightIndex = numbers.length - 1;

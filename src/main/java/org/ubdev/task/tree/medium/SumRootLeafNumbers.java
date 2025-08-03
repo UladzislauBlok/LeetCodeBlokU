@@ -2,7 +2,7 @@ package org.ubdev.task.tree.medium;
 
 import org.ubdev.domain.TreeNode;
 
-public class SumRootLeafNumbers {
+class SumRootLeafNumbers {
     private int sum = 0;
 
     public int sumNumbers(TreeNode root) {

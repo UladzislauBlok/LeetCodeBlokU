@@ -2,7 +2,7 @@ package org.ubdev.task.tree.easy;
 
 import org.ubdev.domain.TreeNode;
 
-public class MinimumAbsoluteDifferenceBST {
+class MinimumAbsoluteDifferenceBST {
 
     public int getMinimumDifference(TreeNode root) {
         int minDiff = Integer.MAX_VALUE;

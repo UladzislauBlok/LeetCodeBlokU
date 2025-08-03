@@ -1,6 +1,6 @@
 package org.ubdev.task.dynamic.programming.medium;
 
-public class HouseRobberII {
+class HouseRobberII {
 
     public int rob(int[] nums) {
         if (nums.length == 1) return nums[0];

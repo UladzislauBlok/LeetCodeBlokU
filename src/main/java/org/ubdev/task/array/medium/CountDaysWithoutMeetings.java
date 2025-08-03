@@ -3,7 +3,7 @@ package org.ubdev.task.array.medium;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class CountDaysWithoutMeetings {
+class CountDaysWithoutMeetings {
 
     public int countDaysQuick(int days, int[][] meetings) {
         Arrays.sort(meetings, (a,b) -> a[0] - b[0]);

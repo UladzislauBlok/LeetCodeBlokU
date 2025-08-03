@@ -1,6 +1,6 @@
 package org.ubdev.task.matrix.medium;
 
-public class SetMatrixZeroes {
+class SetMatrixZeroes {
 
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;

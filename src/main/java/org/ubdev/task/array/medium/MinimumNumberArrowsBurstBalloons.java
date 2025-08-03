@@ -3,7 +3,7 @@ package org.ubdev.task.array.medium;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class MinimumNumberArrowsBurstBalloons {
+class MinimumNumberArrowsBurstBalloons {
 
     public int findMinArrowShots(int[][] points) {
         Arrays.sort(points, Comparator.comparingInt(a -> a[1]));

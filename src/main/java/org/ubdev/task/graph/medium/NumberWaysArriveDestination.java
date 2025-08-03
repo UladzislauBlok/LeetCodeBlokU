@@ -2,7 +2,7 @@ package org.ubdev.task.graph.medium;
 
 import java.util.Arrays;
 
-public class NumberWaysArriveDestination {
+class NumberWaysArriveDestination {
     private static final int MODULO = (int) (Math.pow(10, 9) + 7);
 
     public int countPaths(int n, int[][] roads) {

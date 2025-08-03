@@ -3,7 +3,7 @@ package org.ubdev.task.array.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InsertInterval {
+class InsertInterval {
 
     public int[][] insert(int[][] intervals, int[] newInterval) {
         // edge cases

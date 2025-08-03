@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class PaintingGridWithThreeDifferentColors {
+class PaintingGridWithThreeDifferentColors {
     private int gridHeight;
 
     public int colorTheGrid(int m, int n) {

@@ -1,6 +1,6 @@
 package org.ubdev.task.dynamic.programming.medium;
 
-public class UniquePathsII {
+class UniquePathsII {
 
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;

@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class GasStation {
+class GasStation {
 
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int total = 0, curGain = 0, answer = 0;

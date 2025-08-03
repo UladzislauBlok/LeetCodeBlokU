@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
-public class MinimumHeightTrees {
+class MinimumHeightTrees {
 
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1) {

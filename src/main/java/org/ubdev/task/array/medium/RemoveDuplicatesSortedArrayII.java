@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class RemoveDuplicatesSortedArrayII {
+class RemoveDuplicatesSortedArrayII {
 
     public int removeDuplicates(int[] nums) {
         int left  = 1;

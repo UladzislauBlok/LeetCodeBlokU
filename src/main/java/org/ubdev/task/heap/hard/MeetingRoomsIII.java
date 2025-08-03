@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class MeetingRoomsIII {
+class MeetingRoomsIII {
 
     public int mostBooked(int n, int[][] meetings) {
         Map<Integer, Integer> roomsUse = new HashMap<>();

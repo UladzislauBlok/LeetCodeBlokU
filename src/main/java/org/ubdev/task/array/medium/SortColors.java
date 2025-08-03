@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class SortColors {
+class SortColors {
 
     public void sortColors(int[] nums) {
         int[] colors = new int[3];

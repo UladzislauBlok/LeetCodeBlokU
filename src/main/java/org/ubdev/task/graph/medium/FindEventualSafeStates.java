@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
-public class FindEventualSafeStates {
+class FindEventualSafeStates {
 
     public List<Integer> eventualSafeNodes(int[][] graph) { // BFS. Check cycle
         int n = graph.length;

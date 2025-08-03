@@ -2,7 +2,7 @@ package org.ubdev.task.binary.search.medium;
 
 import java.util.Arrays;
 
-public class MinimizeMaximumDifferencePairs {
+class MinimizeMaximumDifferencePairs {
 
     // O(n logn)
     public int minimizeMax(int[] nums, int p) {

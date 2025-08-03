@@ -1,6 +1,6 @@
 package org.ubdev.task.array.easy;
 
-public class MaximumCountPositiveIntegerNegativeInteger {
+class MaximumCountPositiveIntegerNegativeInteger {
 
     public int maximumCount(int[] nums) {
         int positive = 0, negative = 0;

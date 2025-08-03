@@ -2,7 +2,7 @@ package org.ubdev.task.linked.list.medium;
 
 import org.ubdev.domain.ListNode;
 
-public class RemoveDuplicatesSortedListII {
+class RemoveDuplicatesSortedListII {
 
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {

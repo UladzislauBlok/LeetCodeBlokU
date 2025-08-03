@@ -1,6 +1,6 @@
 package org.ubdev.task.array.easy;
 
-public class MaximumDifferenceBetweenAdjacentElementsCircularArray {
+class MaximumDifferenceBetweenAdjacentElementsCircularArray {
 
     public int maxAdjacentDistance(int[] nums) {
         int max = Math.abs(nums[0] - nums[nums.length - 1]);

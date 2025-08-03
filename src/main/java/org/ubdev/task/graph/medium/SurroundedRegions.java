@@ -1,6 +1,6 @@
 package org.ubdev.task.graph.medium;
 
-public class SurroundedRegions {
+class SurroundedRegions {
 
 
     public void solve(char[][] board) {

@@ -1,6 +1,6 @@
 package org.ubdev.task.greedy.medium;
 
-public class MaxDifferenceYouCanGetFromChangingInteger {
+class MaxDifferenceYouCanGetFromChangingInteger {
 
     public int maxDiff(int num) {
         String numStr = String.valueOf(num);

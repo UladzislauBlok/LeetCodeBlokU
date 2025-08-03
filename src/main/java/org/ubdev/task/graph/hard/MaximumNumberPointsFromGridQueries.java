@@ -3,7 +3,7 @@ package org.ubdev.task.graph.hard;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class MaximumNumberPointsFromGridQueries {
+class MaximumNumberPointsFromGridQueries {
 
     public int[] maxPoints(int[][] grid, int[] queries) {
         int queryLength = queries.length;

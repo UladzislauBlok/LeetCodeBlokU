@@ -1,6 +1,6 @@
 package org.ubdev.task.math.easy;
 
-public class PalindromeNumber {
+class PalindromeNumber {
 
     public boolean isPalindrome(int x) {
         int remainder = x;

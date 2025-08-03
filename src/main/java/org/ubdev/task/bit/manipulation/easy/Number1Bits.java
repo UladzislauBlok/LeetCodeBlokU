@@ -1,6 +1,6 @@
 package org.ubdev.task.bit.manipulation.easy;
 
-public class Number1Bits {
+class Number1Bits {
 
     public int hammingWeight(int n) {
         int count = 0;

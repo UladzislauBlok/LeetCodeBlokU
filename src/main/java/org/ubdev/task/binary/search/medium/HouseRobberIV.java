@@ -1,6 +1,6 @@
 package org.ubdev.task.binary.search.medium;
 
-public class HouseRobberIV {
+class HouseRobberIV {
 
     public int minCapability(int[] nums, int k) {
         int low = Integer.MAX_VALUE;

@@ -1,6 +1,6 @@
 package org.ubdev.task.two.pointer.easy;
 
-public class FindIndexFirstOccurrenceString {
+class FindIndexFirstOccurrenceString {
 
     public int strStr(String haystack, String needle) {
         char[] haystackChars = haystack.toCharArray();

@@ -3,7 +3,7 @@ package org.ubdev.task.string.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LongestPalindromeConcatenatingTwoLetterWords {
+class LongestPalindromeConcatenatingTwoLetterWords {
 
     public int longestPalindrome(String[] words) {
         Map<String, Integer> wordMap = new HashMap<>();

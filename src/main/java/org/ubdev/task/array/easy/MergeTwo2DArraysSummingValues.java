@@ -1,6 +1,6 @@
 package org.ubdev.task.array.easy;
 
-public class MergeTwo2DArraysSummingValues {
+class MergeTwo2DArraysSummingValues {
 
     public int[][] mergeArrays(int[][] nums1, int[][] nums2) {
         int[] map = new int[1001];

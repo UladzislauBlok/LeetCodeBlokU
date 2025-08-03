@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class ValidSudoku {
+class ValidSudoku {
 
     public boolean isValidSudoku(char[][] board) {
         Map<Integer, Set<Character>> row = new HashMap<>();

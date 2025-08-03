@@ -3,7 +3,7 @@ package org.ubdev.task.graph.medium;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class SnakesLadders {
+class SnakesLadders {
 
     public int snakesAndLadders(int[][] board) {
         int n = board.length;

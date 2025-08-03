@@ -1,6 +1,6 @@
 package org.ubdev.task.math.medium;
 
-public class PowXN {
+class PowXN {
 
     public double myPow(double x, int n) {
         double result = 1;

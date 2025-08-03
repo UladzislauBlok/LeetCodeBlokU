@@ -5,7 +5,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class BasicCalculator {
+class BasicCalculator {
 
     public int calculateB(String s) {
         Deque<String> stack = new ArrayDeque<>();

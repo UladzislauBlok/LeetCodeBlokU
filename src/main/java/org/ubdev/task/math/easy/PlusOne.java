@@ -1,6 +1,6 @@
 package org.ubdev.task.math.easy;
 
-public class PlusOne {
+class PlusOne {
 
     public int[] plusOne(int[] digits) {
         int i = digits.length - 1;

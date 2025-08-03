@@ -1,6 +1,6 @@
 package org.ubdev.task.tree.medium;
 
-public class DesignAddSearchWordsDataStructure {
+class DesignAddSearchWordsDataStructure {
 
     public static class WordDictionary {
         private final Node[] nodes;

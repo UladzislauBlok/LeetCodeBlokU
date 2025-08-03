@@ -3,7 +3,7 @@ package org.ubdev.task.stack.medium;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class EvaluateReversePolishNotation {
+class EvaluateReversePolishNotation {
 
     public int evalRPN(String[] tokens) {
         Deque<Integer> stack = new ArrayDeque<>();

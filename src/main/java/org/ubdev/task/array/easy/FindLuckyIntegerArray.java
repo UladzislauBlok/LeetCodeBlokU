@@ -1,6 +1,6 @@
 package org.ubdev.task.array.easy;
 
-public class FindLuckyIntegerArray {
+class FindLuckyIntegerArray {
 
     public int findLucky(int[] nums) {
         int[] map = new int[501];

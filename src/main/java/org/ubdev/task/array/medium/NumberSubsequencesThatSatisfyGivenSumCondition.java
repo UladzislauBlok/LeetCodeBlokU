@@ -2,7 +2,7 @@ package org.ubdev.task.array.medium;
 
 import java.util.Arrays;
 
-public class NumberSubsequencesThatSatisfyGivenSumCondition {
+class NumberSubsequencesThatSatisfyGivenSumCondition {
 
     private static final int MOD = (int)1e9 + 7;
 

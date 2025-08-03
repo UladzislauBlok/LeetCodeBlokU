@@ -2,7 +2,7 @@ package org.ubdev.task.tree.medium;
 
 import org.ubdev.domain.TreeNode;
 
-public class HouseRobberIII {
+class HouseRobberIII {
 
     public int rob(TreeNode root) {
         int[] res = dfs(root);

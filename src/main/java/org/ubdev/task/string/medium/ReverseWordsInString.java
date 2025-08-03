@@ -1,6 +1,6 @@
 package org.ubdev.task.string.medium;
 
-public class ReverseWordsInString {
+class ReverseWordsInString {
 
     public String reverseWords(String str) {
         char[] chars = str.toCharArray();

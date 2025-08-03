@@ -2,7 +2,7 @@ package org.ubdev.task.graph.medium;
 
 import java.util.*;
 
-public class MinimumGeneticMutation {
+class MinimumGeneticMutation {
     private final Map<Integer, Set<Character>> map = new HashMap<>();
     private final Set<String> bank = new HashSet<>();
     private int res = Integer.MAX_VALUE;

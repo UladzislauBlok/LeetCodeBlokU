@@ -1,6 +1,6 @@
 package org.ubdev.task.math.medium;
 
-public class ClosestPrimeNumbersRange {
+class ClosestPrimeNumbersRange {
 
     public int[] closestPrimes(int left, int right) {
         int primeCount = 0;

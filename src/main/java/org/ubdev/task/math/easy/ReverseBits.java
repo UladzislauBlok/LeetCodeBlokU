@@ -1,6 +1,6 @@
 package org.ubdev.task.math.easy;
 
-public class ReverseBits {
+class ReverseBits {
 
     // You need to treat n as an unsigned value
     public int reverseBits(int n) {

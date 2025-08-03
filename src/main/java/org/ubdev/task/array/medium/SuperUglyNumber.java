@@ -2,7 +2,7 @@ package org.ubdev.task.array.medium;
 
 import java.util.PriorityQueue;
 
-public class SuperUglyNumber {
+class SuperUglyNumber {
     public int nthSuperUglyNumber(int n, int[] primes) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         minHeap.offer(1);

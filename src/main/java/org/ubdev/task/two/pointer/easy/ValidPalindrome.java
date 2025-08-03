@@ -1,6 +1,6 @@
 package org.ubdev.task.two.pointer.easy;
 
-public class ValidPalindrome {
+class ValidPalindrome {
 
     /**
      * Replace all non-alphanumeric characters with ASCii table null, and then check is array str a palindrome

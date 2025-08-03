@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CheckGridCutSections {
+class CheckGridCutSections {
 
     public boolean checkValidCuts(int n, int[][] rectangles) {
         List<int[]> intervals = new ArrayList<>();

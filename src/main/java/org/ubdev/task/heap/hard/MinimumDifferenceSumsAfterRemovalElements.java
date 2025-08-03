@@ -2,7 +2,7 @@ package org.ubdev.task.heap.hard;
 
 import java.util.PriorityQueue;
 
-public class MinimumDifferenceSumsAfterRemovalElements {
+class MinimumDifferenceSumsAfterRemovalElements {
 
     /*
     try to remove biggest possible from left side up to length - n

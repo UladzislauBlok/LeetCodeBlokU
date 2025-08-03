@@ -2,7 +2,7 @@ package org.ubdev.task.graph.medium;
 
 import java.util.Arrays;
 
-public class FindClosestNodeGivenTwoNodes {
+class FindClosestNodeGivenTwoNodes {
 
     public int closestMeetingNode(int[] edges, int node1, int node2) {
         int n = edges.length;

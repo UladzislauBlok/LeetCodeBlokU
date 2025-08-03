@@ -3,7 +3,7 @@ package org.ubdev.task.hashmap.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ContainsDuplicateII {
+class ContainsDuplicateII {
 
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();

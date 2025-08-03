@@ -2,7 +2,7 @@ package org.ubdev.task.array.medium;
 
 import java.util.Arrays;
 
-public class MaximumMatchingPlayersWithTrainers {
+class MaximumMatchingPlayersWithTrainers {
 
     public int matchPlayersAndTrainers(int[] players, int[] trainers) {
         Arrays.sort(players);

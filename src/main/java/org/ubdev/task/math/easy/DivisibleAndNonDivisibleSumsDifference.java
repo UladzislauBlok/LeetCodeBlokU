@@ -1,6 +1,6 @@
 package org.ubdev.task.math.easy;
 
-public class DivisibleAndNonDivisibleSumsDifference {
+class DivisibleAndNonDivisibleSumsDifference {
 
     public int differenceOfSums(int n, int m) {
         int divMCount = n / m;

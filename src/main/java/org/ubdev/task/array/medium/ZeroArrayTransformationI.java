@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class ZeroArrayTransformationI {
+class ZeroArrayTransformationI {
 
     public boolean isZeroArray(int[] nums, int[][] queries) {
         int[] differenceArray = new int[nums.length + 1];

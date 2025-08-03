@@ -4,7 +4,7 @@ import org.ubdev.domain.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UniqueBinarySearchTreesII {
+class UniqueBinarySearchTreesII {
     public List<TreeNode> generateTrees(int n) {
         return generateTreesInRange(1, n); // can be done better using memorization
     }

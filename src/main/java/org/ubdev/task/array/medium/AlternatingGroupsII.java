@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class AlternatingGroupsII {
+class AlternatingGroupsII {
 
     public int numberOfAlternatingGroups(int[] colors, int k) {
         int[] fullCycle =  new int[colors.length + k - 1];

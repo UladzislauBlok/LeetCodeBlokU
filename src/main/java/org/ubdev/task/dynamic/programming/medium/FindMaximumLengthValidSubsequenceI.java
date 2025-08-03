@@ -1,6 +1,6 @@
 package org.ubdev.task.dynamic.programming.medium;
 
-public class FindMaximumLengthValidSubsequenceI {
+class FindMaximumLengthValidSubsequenceI {
 
     public int maximumLength(int[] nums) {
         int[] count = new int[2];

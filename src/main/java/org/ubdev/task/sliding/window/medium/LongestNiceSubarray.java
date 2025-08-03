@@ -1,6 +1,6 @@
 package org.ubdev.task.sliding.window.medium;
 
-public class LongestNiceSubarray {
+class LongestNiceSubarray {
 
     public int longestNiceSubarray(int[] nums) {
         int max = 1;

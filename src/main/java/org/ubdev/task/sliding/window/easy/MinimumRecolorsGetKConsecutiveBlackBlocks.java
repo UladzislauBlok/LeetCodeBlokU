@@ -1,6 +1,6 @@
 package org.ubdev.task.sliding.window.easy;
 
-public class MinimumRecolorsGetKConsecutiveBlackBlocks {
+class MinimumRecolorsGetKConsecutiveBlackBlocks {
 
     public int minimumRecolors(String blocks, int k) {
         char[] blocksArray = blocks.toCharArray();

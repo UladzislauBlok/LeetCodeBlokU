@@ -3,7 +3,7 @@ package org.ubdev.task.tree.medium;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class PopulatingNextRightPointersEachNode {
+class PopulatingNextRightPointersEachNode {
 
     // Lvl traversal - Queue
     public Node connect(Node root) {

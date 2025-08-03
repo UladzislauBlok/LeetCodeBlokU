@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class BestTimeBuySellStockII {
+class BestTimeBuySellStockII {
 
     public int maxProfit(int[] prices) {
         int profit = 0;

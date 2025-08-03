@@ -2,7 +2,7 @@ package org.ubdev.task.linked.list.easy;
 
 import org.ubdev.domain.ListNode;
 
-public class ConvertBinaryNumberLinkedListInteger {
+class ConvertBinaryNumberLinkedListInteger {
 
     public int getDecimalValue(ListNode head) {
         int degree = -1;

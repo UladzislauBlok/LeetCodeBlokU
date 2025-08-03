@@ -5,7 +5,7 @@ import org.ubdev.domain.Node;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CloneGraph {
+class CloneGraph {
 
     private final Map<Integer, Node> map = new HashMap<>();
 

@@ -1,6 +1,6 @@
 package org.ubdev.task.sliding.window.medium;
 
-public class CountSubstringsContainingEveryVowelKConsonantsII {
+class CountSubstringsContainingEveryVowelKConsonantsII {
 
     public long countOfSubstrings(String word, int k) {
         return atLeastK(word, k) -  atLeastK(word, k + 1);

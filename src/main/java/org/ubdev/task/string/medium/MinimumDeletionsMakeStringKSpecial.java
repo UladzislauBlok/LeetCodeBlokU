@@ -1,6 +1,6 @@
 package org.ubdev.task.string.medium;
 
-public class MinimumDeletionsMakeStringKSpecial {
+class MinimumDeletionsMakeStringKSpecial {
 
     public int minimumDeletions(String word, int k) {
         int[] map = new int[26];

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-public class SimplifyPath {
+class SimplifyPath {
 
     public String simplifyPath(String path) {
         List<String> list = new ArrayList<>();

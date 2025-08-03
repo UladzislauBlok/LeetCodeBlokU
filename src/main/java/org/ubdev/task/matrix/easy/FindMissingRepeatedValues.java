@@ -1,6 +1,6 @@
 package org.ubdev.task.matrix.easy;
 
-public class FindMissingRepeatedValues {
+class FindMissingRepeatedValues {
 
     public int[] findMissingAndRepeatedValues(int[][] grid) {
         int rows = grid.length;

@@ -1,6 +1,6 @@
 package org.ubdev.task.array.easy;
 
-public class MaximumDifferenceBetweenIncreasingElements {
+class MaximumDifferenceBetweenIncreasingElements {
 
     public int maximumDifference(int[] nums) {
         int res = -1;

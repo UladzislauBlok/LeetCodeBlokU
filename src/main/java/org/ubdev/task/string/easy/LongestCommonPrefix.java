@@ -1,6 +1,6 @@
 package org.ubdev.task.string.easy;
 
-public class LongestCommonPrefix {
+class LongestCommonPrefix {
 
     public String longestCommonPrefix(String[] strs) {
         StringBuilder sb = new StringBuilder();

@@ -3,7 +3,7 @@ package org.ubdev.task.trie.hard;
 import java.util.LinkedList;
 import java.util.List;
 
-public class WordSearchII {
+class WordSearchII {
 
     public List<String> findWords(char[][] board, String[] words) {
         TrieNode trie = new TrieNode();

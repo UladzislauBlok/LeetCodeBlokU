@@ -1,6 +1,6 @@
 package org.ubdev.task.dynamic.programming;
 
-public class MaximalSquare {
+class MaximalSquare {
 
     public int maximalSquare(char[][] matrix) {
         int max = Integer.MIN_VALUE;

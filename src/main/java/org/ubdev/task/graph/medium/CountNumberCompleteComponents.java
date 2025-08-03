@@ -2,7 +2,7 @@ package org.ubdev.task.graph.medium;
 
 import java.util.Arrays;
 
-public class CountNumberCompleteComponents {
+class CountNumberCompleteComponents {
     private int[][] neighbors;
     private boolean isComplete;
 

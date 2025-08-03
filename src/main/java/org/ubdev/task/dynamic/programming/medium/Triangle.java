@@ -2,7 +2,7 @@ package org.ubdev.task.dynamic.programming.medium;
 
 import java.util.List;
 
-public class Triangle {
+class Triangle {
 
     public int minimumTotal(List<List<Integer>> triangle) {
         int[][] dp = new int[triangle.size()][triangle.size()];

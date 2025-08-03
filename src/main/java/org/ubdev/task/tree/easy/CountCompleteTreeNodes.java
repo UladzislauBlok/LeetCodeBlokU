@@ -2,7 +2,7 @@ package org.ubdev.task.tree.easy;
 
 import org.ubdev.domain.TreeNode;
 
-public class CountCompleteTreeNodes {
+class CountCompleteTreeNodes {
 
     public int countNodes(TreeNode root) {
         if (root == null) return 0;

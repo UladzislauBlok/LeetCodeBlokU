@@ -2,7 +2,7 @@ package org.ubdev.task.linked.list.medium;
 
 import org.ubdev.domain.ListNode;
 
-public class ReverseLinkedListII {
+class ReverseLinkedListII {
 
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if (left == right)

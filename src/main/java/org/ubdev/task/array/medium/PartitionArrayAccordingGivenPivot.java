@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class PartitionArrayAccordingGivenPivot {
+class PartitionArrayAccordingGivenPivot {
 
     public int[] pivotArray(int[] nums, int pivot) {
         int[] leftPartition = new int[nums.length];

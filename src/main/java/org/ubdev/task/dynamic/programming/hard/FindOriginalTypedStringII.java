@@ -3,7 +3,7 @@ package org.ubdev.task.dynamic.programming.hard;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindOriginalTypedStringII {
+class FindOriginalTypedStringII {
 
     private static final int MOD = (int) 1e9 + 7;
 

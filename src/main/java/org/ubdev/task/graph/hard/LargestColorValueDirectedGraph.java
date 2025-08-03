@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class LargestColorValueDirectedGraph {
+class LargestColorValueDirectedGraph {
 
     public int largestPathValue(String colors, int[][] edges) {
         int n = colors.length();

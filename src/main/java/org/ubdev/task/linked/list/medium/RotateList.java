@@ -2,7 +2,7 @@ package org.ubdev.task.linked.list.medium;
 
 import org.ubdev.domain.ListNode;
 
-public class RotateList {
+class RotateList {
 
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || k == 0)

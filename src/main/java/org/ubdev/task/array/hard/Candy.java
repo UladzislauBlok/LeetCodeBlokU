@@ -1,6 +1,6 @@
 package org.ubdev.task.array.hard;
 
-public class Candy {
+class Candy {
 
     public int candy(int[] ratings) {
         int[] res = new int[ratings.length];

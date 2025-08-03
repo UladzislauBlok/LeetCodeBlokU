@@ -1,7 +1,7 @@
 package org.ubdev.task.array.medium;
 
 //Not my sol
-public class ZeroArrayTransformationII {
+class ZeroArrayTransformationII {
 
     public int minZeroArray(int[] nums, int[][] queries) {
 

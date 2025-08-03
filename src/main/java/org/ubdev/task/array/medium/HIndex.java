@@ -2,7 +2,7 @@ package org.ubdev.task.array.medium;
 
 import java.util.Arrays;
 
-public class HIndex {
+class HIndex {
 
     public int hIndex(int[] citations) {
         Arrays.sort(citations);

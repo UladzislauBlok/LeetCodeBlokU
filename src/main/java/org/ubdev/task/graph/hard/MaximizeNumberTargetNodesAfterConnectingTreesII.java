@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Queue;
 
-public class MaximizeNumberTargetNodesAfterConnectingTreesII {
+class MaximizeNumberTargetNodesAfterConnectingTreesII {
 
     public int[] maxTargetNodes(int[][] edges1, int[][] edges2) {
         var g2 = build(edges2);

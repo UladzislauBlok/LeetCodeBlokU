@@ -1,6 +1,6 @@
 package org.ubdev.task.string.medium;
 
-public class IntegerRoman {
+class IntegerRoman {
 
     public String intToRoman(int num) {
         StringBuilder sb = new StringBuilder();

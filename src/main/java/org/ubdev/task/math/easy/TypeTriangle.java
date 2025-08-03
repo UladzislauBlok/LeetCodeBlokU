@@ -1,6 +1,6 @@
 package org.ubdev.task.math.easy;
 
-public class TypeTriangle {
+class TypeTriangle {
 
     private static final String EQUILATERAL = "equilateral";
     private static final String ISOSCELES = "isosceles";

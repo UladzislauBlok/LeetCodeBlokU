@@ -1,6 +1,6 @@
 package org.ubdev.task.binary.search.medium;
 
-public class MaximumCandiesAllocatedKChildren {
+class MaximumCandiesAllocatedKChildren {
 
     public int maximumCandies(int[] candies, long k) {
         int low = 0;

@@ -3,7 +3,7 @@ package org.ubdev.task.hashmap.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RansomNote {
+class RansomNote {
 
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] arr = new int[26];

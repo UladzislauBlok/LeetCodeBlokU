@@ -1,6 +1,6 @@
 package org.ubdev.task.dynamic.programming.hard;
 
-public class TheEarliestLatestRoundsWherePlayersCompete {
+class TheEarliestLatestRoundsWherePlayersCompete {
 
     public int[] earliestAndLatest(int n, int firstPlayer, int secondPlayer) {
         int p1 = Math.min(firstPlayer, secondPlayer);

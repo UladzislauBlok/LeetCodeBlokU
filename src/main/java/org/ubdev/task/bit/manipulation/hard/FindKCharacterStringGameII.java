@@ -3,7 +3,7 @@ package org.ubdev.task.bit.manipulation.hard;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindKCharacterStringGameII {
+class FindKCharacterStringGameII {
 
     public char kthCharacterList(long k, int[] operations) {
         long powNum = 1;

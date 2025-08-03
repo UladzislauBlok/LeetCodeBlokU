@@ -1,6 +1,6 @@
 package org.ubdev.task.dynamic.programming.hard;
 
-public class BestTimeBuySellStockIV {
+class BestTimeBuySellStockIV {
 
     public int maxProfit(int k, int[] prices) {
         if (prices.length == 0)

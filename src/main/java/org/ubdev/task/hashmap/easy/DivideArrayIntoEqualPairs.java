@@ -3,7 +3,7 @@ package org.ubdev.task.hashmap.easy;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DivideArrayIntoEqualPairs {
+class DivideArrayIntoEqualPairs {
 
     public boolean divideArray(int[] nums) {
         int[] map = new int[501];

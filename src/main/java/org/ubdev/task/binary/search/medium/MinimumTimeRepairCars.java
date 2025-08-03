@@ -1,6 +1,6 @@
 package org.ubdev.task.binary.search.medium;
 
-public class MinimumTimeRepairCars {
+class MinimumTimeRepairCars {
 
     public long repairCars(int[] ranks, int cars) {
         long low = 0;

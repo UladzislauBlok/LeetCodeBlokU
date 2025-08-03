@@ -1,6 +1,6 @@
 package org.ubdev.task.sliding.window.medium;
 
-public class MinimumSizeSubarraySum {
+class MinimumSizeSubarraySum {
 
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;

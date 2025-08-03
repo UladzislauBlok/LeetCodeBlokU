@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.List;
 import java.util.Queue;
 
-public class LongestSubsequenceRepeatedKTimes {
+class LongestSubsequenceRepeatedKTimes {
 
     public String longestSubsequenceRepeatedK(String s, int k) {
         String ans = "";

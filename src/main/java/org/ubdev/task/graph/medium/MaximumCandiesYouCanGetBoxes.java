@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Set;
 
-public class MaximumCandiesYouCanGetBoxes {
+class MaximumCandiesYouCanGetBoxes {
 
     // bfs
     public int maxCandies(int[] status, int[] candies, int[][] keyss, int[][] containedBoxes, int[] initialBoxes) {

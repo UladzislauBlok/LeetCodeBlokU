@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-public class LexicographicallyMinimumStringAfterRemovingStars {
+class LexicographicallyMinimumStringAfterRemovingStars {
 
     public String clearStars(String s) {
         PriorityQueue<Pair> pq = new PriorityQueue<>((p1, p2) -> p1.c == p2.c ? p2.pos - p1.pos : p1.c - p2.c);

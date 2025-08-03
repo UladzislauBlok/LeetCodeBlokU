@@ -1,6 +1,6 @@
 package org.ubdev.task.array.medium;
 
-public class MinimumOperationsMakeBinaryArrayElementsEqualOneI {
+class MinimumOperationsMakeBinaryArrayElementsEqualOneI {
 
     public int minOperations(int[] nums) {
         int count = 0;

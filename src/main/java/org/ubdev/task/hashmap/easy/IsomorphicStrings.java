@@ -1,6 +1,6 @@
 package org.ubdev.task.hashmap.easy;
 
-public class IsomorphicStrings {
+class IsomorphicStrings {
 
     public boolean isIsomorphic(String s, String t) {
         int[] sToT = new int[128];

@@ -3,7 +3,7 @@ package org.ubdev.task.string.medium;
 import java.util.HashMap;
 import java.util.Map;
 
-public class UsingRobotPrintLexicographicallySmallestString {
+class UsingRobotPrintLexicographicallySmallestString {
 
     public String robotWithString(String s) {
         int n = s.length();

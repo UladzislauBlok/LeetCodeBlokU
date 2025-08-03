@@ -1,6 +1,6 @@
 package org.ubdev.task.bit.manipulation.medium;
 
-public class SingleNumberII {
+class SingleNumberII {
 
     public int singleNumber(int[] nums) {
         int ones = 0, twos = 0;

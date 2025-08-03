@@ -1,6 +1,6 @@
 package org.ubdev.task.math.easy;
 
-public class MaximumDifferenceRemappingDigit {
+class MaximumDifferenceRemappingDigit {
 
     public int minMaxDifference(int num) {
         String numStr = String.valueOf(num);

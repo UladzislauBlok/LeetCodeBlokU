@@ -1,6 +1,6 @@
 package org.ubdev.task.math.medium;
 
-public class FactorialTrailingZeroes {
+class FactorialTrailingZeroes {
 
     public int trailingZeroes(int n) {
         int counter = 0;

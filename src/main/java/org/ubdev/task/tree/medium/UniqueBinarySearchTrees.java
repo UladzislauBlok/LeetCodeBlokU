@@ -1,6 +1,6 @@
 package org.ubdev.task.tree.medium;
 
-public class UniqueBinarySearchTrees {
+class UniqueBinarySearchTrees {
     // num of bst on right * num of bst on left
     // for each n for each root
     public int numTrees(int n) {

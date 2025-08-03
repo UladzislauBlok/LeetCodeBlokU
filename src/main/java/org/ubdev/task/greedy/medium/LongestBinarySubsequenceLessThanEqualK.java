@@ -1,6 +1,6 @@
 package org.ubdev.task.greedy.medium;
 
-public class LongestBinarySubsequenceLessThanEqualK {
+class LongestBinarySubsequenceLessThanEqualK {
 
     public int longestSubsequence(String s, int k) {
         int power = 0;

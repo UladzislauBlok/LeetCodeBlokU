@@ -1,6 +1,6 @@
 package org.ubdev.task.binary.search.medium;
 
-public class FindPeakElement {
+class FindPeakElement {
 
     public int findPeakElement(int[] nums) {
         int low = 0;

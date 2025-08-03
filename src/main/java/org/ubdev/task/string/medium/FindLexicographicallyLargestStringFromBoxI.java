@@ -1,6 +1,6 @@
 package org.ubdev.task.string.medium;
 
-public class FindLexicographicallyLargestStringFromBoxI {
+class FindLexicographicallyLargestStringFromBoxI {
 
     public String answerString(String word, int numFriends) {
         if (numFriends == 1)

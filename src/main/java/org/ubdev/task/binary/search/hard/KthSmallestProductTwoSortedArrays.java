@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class KthSmallestProductTwoSortedArrays {
+class KthSmallestProductTwoSortedArrays {
 
     public long kthSmallestProduct(int[] nums1, int[] nums2, long k) {
         List<Integer> A1 = new ArrayList<>();

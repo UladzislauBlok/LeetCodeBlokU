@@ -1,6 +1,6 @@
 package org.ubdev.task.bit.manipulation.easy;
 
-public class AddBinary {
+class AddBinary {
 
     public String addBinary(String a, String b) {
         char[] charA = a.toCharArray();

@@ -3,7 +3,7 @@ package org.ubdev.task.math.hard;
 /**
  * LLM generated
  */
-public class CountNumberArraysMatchingAdjacentElements {
+class CountNumberArraysMatchingAdjacentElements {
     // Define the modulo constant as 10^9 + 7
     private static final int MOD = 1_000_000_007;
 

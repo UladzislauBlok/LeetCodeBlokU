@@ -3,7 +3,7 @@ package org.ubdev.task.array.medium;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class ZeroArrayTransformationIII {
+class ZeroArrayTransformationIII {
 
     public int maxRemoval(int[] nums, int[][] queries) {
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);

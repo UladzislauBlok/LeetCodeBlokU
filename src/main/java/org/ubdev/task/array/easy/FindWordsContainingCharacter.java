@@ -3,7 +3,7 @@ package org.ubdev.task.array.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindWordsContainingCharacter {
+class FindWordsContainingCharacter {
 
     public List<Integer> findWordsContaining(String[] words, char x) {
         List<Integer> res = new ArrayList<>();

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class BSTIterator {
+class BSTIterator {
     private final Iterator<Integer> iterator;
 
     public BSTIterator(TreeNode root) {

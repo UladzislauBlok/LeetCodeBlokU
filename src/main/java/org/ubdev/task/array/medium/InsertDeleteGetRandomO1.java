@@ -2,7 +2,7 @@ package org.ubdev.task.array.medium;
 
 import java.util.*;
 
-public class InsertDeleteGetRandomO1 {
+class InsertDeleteGetRandomO1 {
 
     public static class RandomizedSet {
 
