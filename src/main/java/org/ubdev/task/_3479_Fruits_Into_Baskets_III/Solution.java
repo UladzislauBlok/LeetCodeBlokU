@@ -1,11 +1,12 @@
 package org.ubdev.task._3479_Fruits_Into_Baskets_III;
 
 import org.ubdev.util.LeetCodeName;
-import org.ubdev.util.Topic;
 import org.ubdev.util.Topics;
 
+import static org.ubdev.util.Topic.*;
+
 @LeetCodeName("Fruits Into Baskets III")
-@Topics({Topic.ARRAY, Topic.SEGMENT_TREE, Topic.BINARY_SEARCH})
+@Topics({ARRAY, SEGMENT_TREE, BINARY_SEARCH})
 class Solution {
     private int[] segTree;
 
