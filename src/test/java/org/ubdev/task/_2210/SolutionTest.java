@@ -1,4 +1,4 @@
-package org.ubdev.task.math.medium;
+package org.ubdev.task._2210;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -7,34 +7,33 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
 
-class PowXNTest {
+class SolutionTest {
 
-    private PowXN solution;
+    private Solution solution;
 
     @BeforeEach
     public void setUp() {
-        this.solution = new PowXN();
+        this.solution = new Solution();
     }
 
     @ParameterizedTest
     @MethodSource
-    void solutionReturnsExpectedResult(double x, int n, double expected) {
+    void solutionReturnsExpectedResult(int[] nums, int expected) {
         // given
 
         // when
-        double actual = solution.myPow(x, n);
+        int actual = solution.countHillValley(nums);
 
         // then
-        assertEquals(expected, actual);
+        assertThat(actual).isEqualTo(expected);
     }
 
     static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
-                Arguments.of(2.00000, 10, 1024.00000),
-//                Arguments.of(2.1, 3, 9.261),
-                Arguments.of(2.0, -2, 0.25)
+                Arguments.of(new int[]{2,4,1,1,6,5}, 3),
+                Arguments.of(new int[]{6,6,5,5,4,1}, 0)
         );
     }
 }

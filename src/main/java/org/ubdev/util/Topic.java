@@ -9,4 +9,11 @@ public enum Topic {
     SORTING,
     COUNTING,
     ENUMERATION,
+    TWO_POINTERS,
+    HEAP_PRIORITY_QUEUE,
+    STRING,
+    SIMULATION,
+    ORDERED_SET,
+    SLIDING_WINDOW,
+    GREEDY,
 }
