@@ -16,4 +16,6 @@ public enum Topic {
     ORDERED_SET,
     SLIDING_WINDOW,
     GREEDY,
+    BIT_MANIPULATION,
+    PREFIX_SUM
 }
