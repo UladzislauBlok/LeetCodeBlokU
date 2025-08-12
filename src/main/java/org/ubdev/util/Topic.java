@@ -17,5 +17,6 @@ public enum Topic {
     SLIDING_WINDOW,
     GREEDY,
     BIT_MANIPULATION,
-    PREFIX_SUM
+    PREFIX_SUM,
+    DYNAMIC_PROGRAMMING
 }
