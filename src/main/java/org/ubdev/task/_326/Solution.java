@@ -1,8 +1,15 @@
 package org.ubdev.task._326;
 
+import org.ubdev.util.LeetCodeName;
+import org.ubdev.util.Topics;
+
 import java.util.HashSet;
 import java.util.Set;
 
+import static org.ubdev.util.Topic.MATH;
+
+@LeetCodeName("Power of Three")
+@Topics({MATH})
 class Solution {
     private static final Set<Integer> pows = calculatePows3();
 

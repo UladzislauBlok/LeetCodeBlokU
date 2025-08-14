@@ -1,4 +1,4 @@
-package org.ubdev.task._326;
+package org.ubdev.task._2264;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -20,11 +20,11 @@ class SolutionTest {
 
     @ParameterizedTest
     @MethodSource
-    void solutionReturnsExpectedResult(int num, boolean expected) {
+    void solutionReturnsExpectedResult(String nums, String expected) {
         // given
 
         // when
-        boolean actual = solution.isPowerOfThree(num);
+        String actual = solution.largestGoodInteger(nums);
 
         // then
         assertThat(actual).isEqualTo(expected);
@@ -32,10 +32,9 @@ class SolutionTest {
 
     static Stream<Arguments> solutionReturnsExpectedResult() {
         return Stream.of(
-                Arguments.of(27, true),
-                Arguments.of(0, false),
-                Arguments.of(-1, false),
-                Arguments.of(1, true)
+                Arguments.of("6777133339", "777"),
+                Arguments.of("2300019", "000"),
+                Arguments.of("42352338", "")
         );
     }
 }
