@@ -18,5 +18,7 @@ public enum Topic {
     GREEDY,
     BIT_MANIPULATION,
     PREFIX_SUM,
-    DYNAMIC_PROGRAMMING
+    DYNAMIC_PROGRAMMING,
+    STACK,
+    MATRIX
 }
