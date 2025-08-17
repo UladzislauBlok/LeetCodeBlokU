@@ -20,5 +20,6 @@ public enum Topic {
     PREFIX_SUM,
     DYNAMIC_PROGRAMMING,
     STACK,
-    MATRIX
+    MATRIX,
+    PROBABILITY,
 }
