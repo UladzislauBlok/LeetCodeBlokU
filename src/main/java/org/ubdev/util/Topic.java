@@ -22,4 +22,5 @@ public enum Topic {
     STACK,
     MATRIX,
     PROBABILITY,
+    BACKTRACKING,
 }
