@@ -1,5 +1,11 @@
 package org.ubdev.task._3516;
 
+import org.ubdev.util.LeetCodeName;
+import org.ubdev.util.Topic;
+import org.ubdev.util.Topics;
+
+@LeetCodeName("Find Closest Person")
+@Topics({Topic.MATH})
 class Solution {
 
     public int findClosest(int x, int y, int z) {
