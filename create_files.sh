@@ -34,7 +34,7 @@ if [ -f "$SRC_PATH" ]; then
   echo "Warning: The file '$SRC_PATH' already exists. Skipping."
 else
   cat << 'EOF' > "$SRC_PATH"
-package org.ubdev.task.$SOL_DIR;
+package org.ubdev.task.TODO;
 
 import org.ubdev.util.LeetCodeName;
 import org.ubdev.util.Topics;
@@ -62,7 +62,7 @@ if [ -f "$TEST_PATH" ]; then
   echo "Warning: The file '$TEST_PATH' already exists. Skipping."
 else
   cat << 'EOF' > "$TEST_PATH"
-package org.ubdev.task.$SOL_DIR;
+package org.ubdev.task.TODO;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;

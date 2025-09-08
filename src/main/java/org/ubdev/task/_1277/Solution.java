@@ -1,9 +1,9 @@
 package org.ubdev.task._1277;
 
+import static org.ubdev.util.Topic.*;
+
 import org.ubdev.util.LeetCodeName;
 import org.ubdev.util.Topics;
-
-import static org.ubdev.util.Topic.*;
 
 @LeetCodeName("Count Square Submatrices with All Ones")
 @Topics({ARRAY, MATRIX, DYNAMIC_PROGRAMMING})
