@@ -23,4 +23,6 @@ public enum Topic {
     MATRIX,
     PROBABILITY,
     BACKTRACKING,
+    DESIGN,
+    RBT
 }
