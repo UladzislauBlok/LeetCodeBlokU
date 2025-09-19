@@ -1,40 +1,27 @@
-package org.ubdev.task.TODO;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
-
-import java.util.stream.Stream;
+package org.ubdev.task._3484;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import org.junit.jupiter.api.Test;
+
 class SolutionTest {
 
-    private Solution solution;
+    @Test
+    void tc1() {
+        Solution.Spreadsheet uut = new Solution.Spreadsheet(3);
 
-    @BeforeEach
-    public void setUp() {
-        this.solution = new Solution();
-    }
+        assertThat(uut.getValue("=5+7")).isEqualTo(12);
 
-    @ParameterizedTest
-    @MethodSource
-    void solutionReturnsExpectedResult(int expected) {
-        // given
+        uut.setCell("A1", 10);
 
-        // when
-        int actual = solution.f();
+        assertThat(uut.getValue("=A1+6")).isEqualTo(16);
 
-        // then
-        assertThat(actual).isEqualTo(expected);
-    }
+        uut.setCell("B2", 15);
 
-    static Stream<Arguments> solutionReturnsExpectedResult() {
-        return Stream.of(
-                Arguments.of(10),
-                Arguments.of(4)
-        );
+        assertThat(uut.getValue("=A1+B2")).isEqualTo(25);
+
+        uut.resetCell("A1");
+
+        assertThat(uut.getValue("=A1+B2")).isEqualTo(15);
     }
 }
-
