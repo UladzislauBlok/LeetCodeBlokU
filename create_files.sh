@@ -9,8 +9,8 @@ fi
 
 # Store the project directory name.
 SOL_DIR="$1"
-SRC_DIR="src/main/java/org/ubdev/task/$SOL_DIR"
-TEST_DIR="src/test/java/org/ubdev/task/$SOL_DIR"
+SRC_DIR="java/app/src/main/java/org/bloku/task/$SOL_DIR"
+TEST_DIR="java/app/src/test/java/org/bloku/task/$SOL_DIR"
 
 # Create the main project directory and subdirectories.
 mkdir -p "$SRC_DIR"
@@ -34,12 +34,12 @@ if [ -f "$SRC_PATH" ]; then
     echo "Warning: The file '$SRC_PATH' already exists. Skipping."
 else
     cat <<'EOF' >"$SRC_PATH"
-package org.ubdev.task.TODO;
+package org.bloku.task.TODO;
 
-import static org.ubdev.util.Topic.*;
+import static org.bloku.util.Topic.*;
 
-import org.ubdev.util.LeetCodeName;
-import org.ubdev.util.Topics;
+import org.bloku.util.LeetCodeName;
+import org.bloku.util.Topics;
 
 @LeetCodeName("") // TODO
 @Topics({}) // TODO
@@ -64,7 +64,7 @@ if [ -f "$TEST_PATH" ]; then
     echo "Warning: The file '$TEST_PATH' already exists. Skipping."
 else
     cat <<'EOF' >"$TEST_PATH"
-package org.ubdev.task.TODO;
+package org.bloku.task.TODO;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
