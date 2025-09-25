@@ -24,5 +24,7 @@ public enum Topic {
     PROBABILITY,
     BACKTRACKING,
     DESIGN,
-    RBT
+    RBT,
+    DFS,
+    BFS
 }
