@@ -16,14 +16,13 @@ class Solution {
             x *= -1;
             negative = true;
         }
-        int prev = -1;
         int res = 0;
+        int max = Integer.MAX_VALUE / 10;
         while (x > 0) {
-            prev = res;
+            if (res < 0 || res > max) return 0;
             res *= 10;
             res += x % 10;
             x /= 10;
-            if (res < 0 || res - prev < prev) return 0;
         }
         return negative ? -1 * res : res;
     }
