@@ -1,16 +1,10 @@
 #!/bin/bash
 
-# Check if a directory name was provided.
-if [ "$#" -ne 1 ]; then
-    echo "Error: You must provide exactly one argument, the project directory name."
-    echo "Usage: ./create_files_with_templates.sh <project_directory>"
-    exit 1
-fi
-
 # Store the project directory name.
-SOL_DIR="$1"
-SRC_DIR="java/app/src/main/java/org/bloku/task/$SOL_DIR"
-TEST_DIR="java/app/src/test/java/org/bloku/task/$SOL_DIR"
+TASK_NUM="$1"
+SRC_DIR="java/app/src/main/java/org/bloku/task/_$TASK_NUM"
+TEST_DIR="java/app/src/test/java/org/bloku/task/_$TASK_NUM"
+RUST_DIR="rust/src"
 
 # Create the main project directory and subdirectories.
 mkdir -p "$SRC_DIR"
@@ -27,6 +21,7 @@ fi
 # Define the source and test file names.
 SRC_FILE_NAME="Solution.java"
 TEST_FILE_NAME="SolutionTest.java"
+RUST_FILE_NAME="sol_$TASK_NUM.rs"
 
 # --- Create the source file (Solution.java) ---
 SRC_PATH="$SRC_DIR/$SRC_FILE_NAME"
@@ -109,6 +104,27 @@ EOF
         echo "Successfully created '$TEST_PATH' with the template content."
     else
         echo "An error occurred while creating the file '$TEST_PATH'."
+    fi
+fi
+
+RUST_PATH="$RUST_DIR/$RUST_FILE_NAME"
+if [ -f "$RUST_PATH" ]; then
+    echo "Warning: The file '$RUST_PATH' already exists. Skipping."
+else
+    cat <<'EOF' >"$RUST_PATH"
+struct Solution {}
+
+impl Solution {
+    pub fn tbd() {
+        
+    }
+}
+
+EOF
+    if [ $? -eq 0 ]; then
+        echo "Successfully created '$RUST_PATH' with the template content."
+    else
+        echo "An error occurred while creating the file '$RUST_PATH'."
     fi
 fi
 
