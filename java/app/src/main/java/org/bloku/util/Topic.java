@@ -26,5 +26,6 @@ public enum Topic {
     DESIGN,
     RBT,
     DFS,
-    BFS
+    BFS,
+    UNION_FIND
 }
