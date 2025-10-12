@@ -27,5 +27,6 @@ public enum Topic {
     RBT,
     DFS,
     BFS,
-    UNION_FIND
+    UNION_FIND,
+    BITMASK,
 }
