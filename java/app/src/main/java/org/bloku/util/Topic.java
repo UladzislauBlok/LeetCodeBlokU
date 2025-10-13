@@ -29,4 +29,5 @@ public enum Topic {
     BFS,
     UNION_FIND,
     BITMASK,
+    TREE,
 }
