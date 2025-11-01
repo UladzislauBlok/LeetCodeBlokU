@@ -30,4 +30,5 @@ public enum Topic {
     UNION_FIND,
     BITMASK,
     TREE,
+    LINKED_LIST,
 }
