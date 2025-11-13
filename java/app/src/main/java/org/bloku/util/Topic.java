@@ -31,4 +31,7 @@ public enum Topic {
     BITMASK,
     TREE,
     LINKED_LIST,
+    GRAPH,
+    SHORTEST_PATH,
+    DIJKSTRA
 }
